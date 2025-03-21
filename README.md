@@ -23,12 +23,10 @@ Drag mode same_level:
 * Minimum api level 9.
 
 ### Usage
-#### Dependencies
-```groovy
-dependencies {
-    compile 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
-}
-```
+
+- Copy the classes `SwipeRevealLayout.java` and `ViewBinderHelper.java` into your project sources.
+- Insert the package name in both of the classes, and also import your project `R` class inside the `SwipeRevealLayout.java` class.
+- Copy the `attrs.xml` inside your project res/values folder.
 
 #### Layout file
 ```xml
